@@ -8,6 +8,9 @@ const initialState = {
   const DECREMENT = "DECREMENT";
   const UNDO = "UNDO";
   const REDO = "REDO";
+
+
+
   
   export function increment( amount ) {
     return { amount, type: INCREMENT };
